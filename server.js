@@ -52,7 +52,7 @@ app.use(express.static(process.env.OPENSHIFT_REPO_DIR + 'public'));
 
 // Handler for GET /
 app.get('/', function(req, res) {
-    res.render('index', { layout: 'layout', title: 'Farmstands' });
+    res.render('index', { layout: 'layout', title: 'Myapp' });
 });
 
 
