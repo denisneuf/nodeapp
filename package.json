@@ -5,7 +5,7 @@
   "dependencies": {
     "express": "4.4.4",
     "jade": "*",
-  }
+  },
     "license": "MIT",
     "licenses": [{
         "type": "The MIT License",
