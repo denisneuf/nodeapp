@@ -62,7 +62,7 @@ var ipaddr  = process.env.OPENSHIFT_NODEJS_IP;
 var port    = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 
 if (typeof ipaddr === "undefined") {
-   console.warn('No OPENSHIFT_NODEJS_IP environment variable');
+   console.warn('No OPENSHIFT_NODEJS_IP environment variable detected');
 }
 
 //  terminator === the termination handler.
