@@ -4,15 +4,15 @@
   "private": true,
 
   "dependencies": {
-    "express": "4.4.4",
+    "express": ">=4.5.0"
     "body-parser": "> 1.0.0",
     "method-override": "> 1.0.0",
     "cookie-parser": "> 1.0.0",
     "express-session": "> 1.0.0",
     "stylus":  "0.29.x",
     "jade":    "0.27.x",
-    "mongodb": "1.1.x",
-    "jquery":  "1.6.x"
+    "mongodb": ">=3.1.13"
+    "jquery": ">=3.5.0"
   },
 
   "engines" : {
